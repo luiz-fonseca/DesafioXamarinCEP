@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConsultaCEP.Views.EnderecoDetalhesView">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Endereço Detalhes" TextColor="{StaticResource Primary}" FontSize="Medium" HorizontalTextAlignment="Center"/>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="CEP: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Cep}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Logradouro: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Logradouro}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Complemento: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Complemento}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Bairro: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Bairro}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Localidade: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Localidade}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="UF: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Uf}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="IBGE: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Ibge}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="GIA: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Gia}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Latitude: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Latitude}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Longitude: " TextColor="{StaticResource Primary}"/>
+                        <Span Text="{Binding Endereco.Longitude}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

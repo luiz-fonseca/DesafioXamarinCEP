@@ -1,5 +1,14 @@
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Realm.dll.config
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\ConsultaCEP.iOS.exe
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\ConsultaCEP.iOS.pdb
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\MongoDB.Bson.dll
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Realm.dll
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Realm.pdb
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Remotion.Linq.dll
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Xamarin.CommunityToolkit.dll
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
@@ -43,6 +52,8 @@ C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\Consult
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.dll
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.iOS.dll
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\ConsultaCEP.dll
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\bin\iPhone\Debug\ConsultaCEP.pdb
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
@@ -53,6 +64,7 @@ C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\Consult
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\obj\iPhone\Debug\optimized\
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\obj\iPhone\Debug\ConsultaCEP.iOS.csprojAssemblyReference.cache
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\obj\iPhone\Debug\ConsultaCEP.iOS.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\obj\iPhone\Debug\ConsultaCEP.iOS.csproj.Fody.CopyLocal.cache
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\obj\iPhone\Debug\ConsultaCEP.iOS.csproj.CopyComplete
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\obj\iPhone\Debug\ConsultaCEP.iOS.exe
 C:\Users\DELL\Documents\GitHub\DesafioXamarinCEP\ConsultaCEP\ConsultaCEP\ConsultaCEP.iOS\obj\iPhone\Debug\ConsultaCEP.iOS.pdb

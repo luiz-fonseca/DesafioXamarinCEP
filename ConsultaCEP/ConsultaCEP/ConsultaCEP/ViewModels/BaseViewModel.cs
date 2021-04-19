@@ -1,4 +1,5 @@
-﻿using ConsultaCEP.Models;
+﻿using ConsultaCEP.Interface;
+using ConsultaCEP.Models;
 using ConsultaCEP.Services;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,9 @@ namespace ConsultaCEP.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+        public IRealmService RealmService => DependencyService.Get<IRealmService>();
+        public IGeolocalizacaoService GeolocalizacaoService => DependencyService.Get<IGeolocalizacaoService>();
+        public IEnderecoService EnderecoService => DependencyService.Get<IEnderecoService>();
 
         bool isBusy = false;
         public bool IsBusy

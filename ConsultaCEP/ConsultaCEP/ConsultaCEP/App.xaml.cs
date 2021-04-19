@@ -4,6 +4,8 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("fa-solid-900.ttf", Alias = "FontAwesome")]
+
 namespace ConsultaCEP
 {
     public partial class App : Application
@@ -13,7 +15,10 @@ namespace ConsultaCEP
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            DependencyService.Register<RealmService>();
+            DependencyService.Register<GeolocalizacaoService>();
+            DependencyService.Register<EnderecoService>();
+
             MainPage = new AppShell();
         }
 

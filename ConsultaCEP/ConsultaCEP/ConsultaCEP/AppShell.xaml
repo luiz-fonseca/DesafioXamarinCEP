@@ -5,12 +5,6 @@
        Title="ConsultaCEP"
        x:Class="ConsultaCEP.AppShell">
 
-    <!--
-        The overall app visual hierarchy is defined here, along with navigation.
-    
-        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
-    -->
-
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
@@ -30,17 +24,17 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="About" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
-        <ShellContent Title="Browse" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Title="Consulta" ContentTemplate="{DataTemplate local:ConsultaView}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf002;"/>
+            </ShellContent.Icon>
+        </ShellContent>
+        <ShellContent Title="Registro" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:RegistroView}"/>
+        <ShellContent Title="Mapa" ContentTemplate="{DataTemplate local:MapaView}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf5a0;"/>
+            </ShellContent.Icon>
+        </ShellContent>
+
     </TabBar>
-
-    <!--
-        If you would like to navigate to this content you can do so by calling
-        await Shell.Current.GoToAsync("//LoginPage");
-    -->
-    <TabBar>
-        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
-    </TabBar>
-
-
 </Shell>
